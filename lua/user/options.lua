@@ -19,4 +19,4 @@ vim.opt.splitbelow = true		-- force all horizontal split to go below current win
 vim.opt.splitright = true		-- force all vertical splits to go to the right of current window
 vim.opt.scrolloff = 8
 vim.opt.guifont = "monospace:h17"
-
+vim.opt.termguicolors = true
