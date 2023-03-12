@@ -20,4 +20,12 @@ vim.opt.splitright = true		-- force all vertical splits to go to the right of cu
 vim.opt.scrolloff = 8
 vim.opt.guifont = "monospace:h17"
 vim.opt.termguicolors = true
-vim.opt.shell = 'zsh.exe'
+vim.opt.shell = "bash.exe"
+vim.opt.laststatus = 3
+--vim.fn.expand('%:p')
+vim.api.nvim_buf_get_name(0)
+
+vim.api.nvim_command("autocmd TermOpen * startinsert")             -- starts in insert mode
+vim.api.nvim_command("autocmd TermOpen * setlocal nonumber norelativenumber")       -- no numbers
+--vim.api.nvim_command("autocmd TermEnter * setlocal signcolumn=no") -- no sign column
+vim.api.nvim_command("autocmd TermEnter * startinsert")             -- starts in insert mode

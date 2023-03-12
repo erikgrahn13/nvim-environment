@@ -7,4 +7,9 @@ require "user.cmp"
 require "user.lsp"
 require "user.treesitter"
 require "user.nvim-tree"
-
+require "user.toggleterm"
+vim.api.nvim_command('autocmd VimEnter * let &shellcmdflag = \'-c\'')
+--vim.api.nvim_command('autocmd VimEnter * let &shell=\'"C:/"Program Files"/Git/bin/bash.exe"\'')
+require "user.lualine"
+require "user.neozoom"
+require "user.fterm"
