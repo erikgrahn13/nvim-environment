@@ -5,3 +5,6 @@ require "user.colorscheme"
 vim.cmd "colorscheme tokyonight"
 require "user.cmp"
 require "user.lsp"
+require "user.treesitter"
+require "user.nvim-tree"
+

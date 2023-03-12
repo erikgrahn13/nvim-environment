@@ -29,3 +29,11 @@ require("transparent").setup({
   exclude = {}, -- table: groups you don't want to clear
   ignore_linked_group = true, -- boolean: don't clear a group that links to another group
 })
+
+require("tokyonight").setup {
+    transparent = true,
+    styles = {
+       sidebars = "transparent",
+       floats = "transparent",
+    }
+}

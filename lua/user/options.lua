@@ -20,3 +20,4 @@ vim.opt.splitright = true		-- force all vertical splits to go to the right of cu
 vim.opt.scrolloff = 8
 vim.opt.guifont = "monospace:h17"
 vim.opt.termguicolors = true
+vim.opt.shell = 'zsh.exe'
